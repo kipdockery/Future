@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+
+<TITLE>Wire Graffiti - Contact Information</TITLE>
+
+<META NAME="generator" CONTENT="BBEdit 4.5">
+
+</HEAD>
+<BODY bgcolor= ffffff marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" TEXT="#000000" LINK="#990000" VLINK="#990000">
+
+<map name="nav imagemap">
+<area shape="rect" coords="535, 6, 613, 31"
+href="../latest/latest.html" ONMOUSEOVER="window.status='whats new with wire graffiti';return true">
+
+<area shape="rect" coords="449, 5, 526, 28"
+href="../register/register.html" ONMOUSEOVER="window.status='join the wire graffiti fan club';return true">
+			
+<area shape="rect" coords="358, 5, 444, 28"
+href="contact.html" ONMOUSEOVER="window.status='send mail now!';return true">
+			
+<area shape="rect" coords="522, 33, 588, 60"
+href="../sounds/sounds.html" ONMOUSEOVER="window.status='take a listen';return true">
+			
+<area shape="rect" coords="451, 34, 511, 61"
+href="../sights/sights.html" ONMOUSEOVER="window.status='band photos and other stuff ';return true">
+			
+<area shape="rect" coords="374, 34, 439, 62"
+href="../things/things.html" ONMOUSEOVER="window.status='buy our stuff';return true">
+			
+<area shape="rect" coords="306, 32, 366, 61"
+href="../places/places.html" ONMOUSEOVER="window.status='upcoming live perfomances, list of appearances';return true">
+
+<area shape="rect" coords="235, 33, 297, 63"
+href="../people/people.html" ONMOUSEOVER="window.status='band biographies';return true">
+
+<area shape="rect" coords="170, 30, 230, 61"
+href="../index.html" ONMOUSEOVER="window.status='wire graffiti home page';return true">
+</map>
+
+
+<TABLE WIDTH="621" ALIGN="LEFT" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR> 
+<TD VALIGN="TOP" colspan="2"><img src="vertical_nav.GIF" width=621 height=76
+usemap="#nav imagemap" alt="ImageMap - Better use Netscape 2.0+" HSPACE="0" VSPACE="0" border="0"></TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP" ALIGN="LEFT" WIDTH="124"><IMG SRC="side.GIF" ALIGN=LEFT WIDTH="149" HEIGHT="229" HSPACE="0" VSPACE="0">
+</TD>
+<TD VALIGN="TOP" ALIGN="LEFT" WIDTH="494"><IMG SRC="contact_title.GIF" ALIGN=LEFT WIDTH="286" HEIGHT="78" HSPACE="0" VSPACE="0">
+<BR CLEAR="ALL">
+
+<p>
+<BR>
+<FONT FACE=VERDANA,ARIAL,HELVETICA,GENEVA SIZE=2>
+<B>To order a CD, please send $12.00 to:</B><BR>
+(includes shipping and 8.5% CA tax,<BR>
+ please allow 3 weeks for delivery)
+
+<BR><BR>
+<IMG SRC="hand_wash_logo.gif" ALIGN=LEFT WIDTH="73" HEIGHT="95" HSPACE="0" VSPACE="0">
+<BR>
+<FONT FACE=VERDANA,ARIAL,HELVETICA,GENEVA SIZE=2 COLOR="#990000">
+<B>Hand Wash Music</B><BR>
+<FONT FACE=VERDANA,ARIAL,HELVETICA,GENEVA SIZE=2 COLOR="#000000">
+P.O. Box 99366<BR>
+Emeryville, CA. 94662<BR>
+<BR>
+Phone: <B>(510) 420.7032</B>
+<BR><BR>
+e-mail: <A HREF="mailto: spindry@wiregraffiti.com"><B>spindry@wiregraffiti.com</B></A>
+<BR><BR>
+<BR>
+<BR>
+<BR>
+<P>
+<B>Want to be on the mailing list? 
+<A HREF="../register/register.html"><B>register</B></A>
+</P>
+ 
+</TD>
+</TR>
+
+
+
+
+</TD>
+</TR>
+<TR>
+<TD VALIGN="right" colspan="2">
+<a href="../wwwboard/index.htm">
+<IMG SRC="bug.GIF" ALIGN=RIGHT WIDTH="197" HEIGHT="64" HSPACE="0" VSPACE="0" BORDER=0></A>
+</TD>
+</TR>
+
+</TABLE>
+
+</BODY>
+</HTML>

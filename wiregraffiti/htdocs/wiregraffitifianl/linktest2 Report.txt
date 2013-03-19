@@ -1,0 +1,88 @@
+linktest2.swf Movie Report
+---------------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1         253061         253061    Scene 1 (AS 2.0 Classes Export Frame)
+      2              1         253062    
+      3              1         253063    
+      4              1         253064    
+      5              1         253065    
+      6              1         253066    
+      7              1         253067    
+      8              1         253068    
+      9              1         253069    
+     10              1         253070    
+     11              1         253071    
+     12              1         253072    
+     13              1         253073    
+     14              1         253074    
+     15              1         253075    
+     16              1         253076    
+     17              1         253077    
+     18              1         253078    
+     19              1         253079    
+     20              1         253080    
+     21              1         253081    
+     22              1         253082    
+     23              1         253083    
+     24              1         253084    
+     25              1         253085    
+     26              1         253086    
+     27              1         253087    
+     28              1         253088    
+     29              1         253089    
+     30              1         253090    
+     31           5637         258727    
+     32            226         258953    
+     33            179         259132    
+     34            220         259352    
+     35            245         259597    
+     36              1         259598    
+     37              9         259607    
+     38              1         259608    
+     39              1         259609    
+     40              1         259610    
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                                0             0                   310
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+castles                                0           116                     0
+coverville                             0            96                     0
+drip joy                               0            86                     0
+dynamite8                              0            96                     0
+beautiful engines                      0           120                     0
+beautiful                              0             0                     0
+maskRafa_mc                        70386             0                     1
+rafa                                   0             0                     0
+rafa_bg                                0             0                     0
+
+
+Tweened Shapes: 7263 bytes
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+Stencil Bold                   5414     8abcdefgijlmnoprstuvy
+
+ActionScript Bytes    Location
+------------------    --------
+                96    Scene 1:actionScript:1
+                 1    maskRafa_mc:Layer 5:25
+                46    Scene 1:beautiful engines:31:No instance name assigned(beautiful engines)
+                46    Scene 1:dynamite 8:32:No instance name assigned(dynamite8)
+                37    Scene 1:Layer 9:33:No instance name assigned(drip joy)
+                40    Scene 1:Layer 10:34:No instance name assigned(coverville)
+                44    Scene 1:Layer 11:35:No instance name assigned(castles)
+                 1    Scene 1:actionScript:37
+
+Bitmap                     Compressed    Compression
+-----------------------    ----------  --------  -----------
+back groundwguy.jpg            76251     1387200   JPEG Quality=50
+linkrafa.psd                   98346     1387200   JPEG Quality=50
+
+
+
+

@@ -1,0 +1,325 @@
+/*@charset "utf-8";
+/* CSS Document *!/*/
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	marigin: 0px; /* Keep this set to 0! */
+	
+	background-color: #ffffff;
+	font-size: 11px;	
+}
+
+
+#logoText {
+	display: none;
+}
+
+
+#centeredElements {
+	width: 980px;
+	
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	
+	margin-left: -490px;
+	
+}
+
+#logo {
+	width: 410px;
+	float: left;
+}
+
+#navArea {
+	width: 523px;
+	float: left;
+	
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#navArea>ul {
+	border-bottom: 2px solid #dbdfde;
+
+	margin: 0px;
+	padding: 0px;
+
+	list-style: none;
+}
+
+#navArea li.galleryMobile {
+	display: none;
+}
+
+
+#navArea>ul>li {
+	display: inline;
+	
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	margin-left: 20px;
+	
+}
+
+#navArea>ul>li:first-child {
+	margin-left: 0px;
+}
+
+#navArea>ul>li.active {
+	color: #cb1919;
+}
+
+#navArea>ul>li>a, #contactArea>div a, #contactArea>div a:visited {
+	color: #899495;
+	text-decoration: none;
+}
+
+#contactArea>div a:hover {
+	text-decoration: underline;
+}
+
+#navArea>ul>li>a:visited {
+	color: #899495;
+}
+
+#contactArea>div {
+	padding-top: 7px;
+	color: #899495;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+#contactArea>.inline {
+	display: inline;
+}
+
+#contactArea>.rightBorder {
+	border-right: 1px solid #dbdfde;
+}
+
+#contactArea>.padLeft {
+	padding-left: 8px;
+}
+
+#contactArea>.padRight {
+	padding-right: 8px;
+}
+
+#masthead {
+	position: relative;
+	top: 26px;
+	left: 0px;
+}
+
+#patinaTop {
+	position: absolute;
+	top: 400px;
+	left: 19px;
+	background-image: url('../images/patina-top.png');
+	
+	width: 914px;
+	height: 41px;
+	z-index: 100;
+
+}
+
+#patinaRight {
+	position: relative;
+	top: 5px;
+	left: 933px;
+
+	background-image: url('../images/patina-right.png');
+	
+	width: 34px;
+	height: 436px;
+}
+
+#patinaBottom {
+	position: relative;
+	top: -22px;
+	left: 19px;
+
+	background-image: url('../images/patina-bottom.png');
+	
+	width: 914px;
+	height: 29px;
+}
+
+#patinaLeft {
+	position: relative;
+	top: -458px;
+	left: 0px;
+
+	background-image: url('../images/patina-left.png');
+	
+	width: 19px;
+	height: 436px;
+}
+
+.patina {
+	background-repeat: no-repeat;
+
+/*	border-width: 1px 0px;
+	border-style: solid;
+	border-color: #33cc33;*/
+
+}
+
+#photo {
+	position: relative;
+	top: -881px;
+	left: 10px;
+
+}
+
+
+#content {
+	/*opacity:0.45;
+	filter:alpha(opacity=45); /* For IE8 and earlier 
+
+	background-color: #899495;*/
+	
+	background-image: url('../images/contentBackground.png');
+	
+	width: 328px;
+	
+	margin-left: 77px;
+	
+	position: absolute;
+	left: 50%;
+	
+	padding-left: 34px;
+	padding-right: 27px;
+	
+	color: #ffffff;
+	z-index: 1;
+	
+}
+
+#content h2 {
+	font-size: 12px;
+	margin: 0px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#caption {
+	position: relative;
+	top: -963px;
+	left: 20px;
+	
+	color:#FFFFFF;
+	
+	font-size: 10px;
+	font-family: "Courier New", Courier, monospace;
+	font-variant: small-caps;
+	
+	width: 535px;
+	
+}
+
+#topMask {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	
+	height: 77px;
+	
+	width: 100%;
+	
+	background-color: #ffffff;
+	
+}
+
+#bottomMask {
+	position: fixed;
+	top: 482px;
+	left: 0px;
+	
+	height: 85px;
+	
+	width: 100%;
+	
+	background-color: #ffffff;
+	
+}
+
+
+/* This class is really important. Usually used after a bunch of floated <div> tags to create
+   a break with what comes next. Because of an IE quirk, its normal use is:
+   
+   			<div class="breaker"><!-- --></div>
+			
+  Some versions of IE will ignore the <div> if the comments are not included.
+*/
+.breaker {
+	clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+/* For cases where you inherited transparency you don't want anymore. */
+.noAlpha {
+	opacity: 1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+
+}
+
+.floatLeft {
+	float: left;
+}
+
+.socialImage {
+	margin-top: 1px;
+}
+
+/**************************************************************************************************
+ ** Z Dimention Classes
+ ** These classes are used to layer things on top of each other because trying to remember the 
+ ** numbers of z-indexes and using them consistently is damn near impossible. They have ridiculous
+ ** names because I couldn't come up with better nomenclature. Sorry.
+ ** 
+ ** Values increase by powers of 10.
+ **************************************************************************************************/
+
+/* This is actually not viewable at all, though 
+		display:none; 
+   is a better way to make something invisible.
+*/
+.backstage {
+	z-index: -1; 
+}
+
+.wayBack {
+	z-index: -100; /*photo - 1*/
+}
+
+.back {
+	z-index: -50; /*content - 2 */
+}
+
+/* Called as such becaus "middle" has historically been used to center things along the y axis. */
+
+.mezzanine {
+	z-index: -10; /*topMask -3*/
+}
+
+.front {
+	z-index: -10; /*patinas - 4*/
+}
+
+.inYourFace {
+	z-index: 1; /* logo -5 */
+}
+
+/****************************************************************************************************/
+
+

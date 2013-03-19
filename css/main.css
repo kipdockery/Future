@@ -1,0 +1,286 @@
+/*@charset "utf-8";
+/* CSS Document *!/*/
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	marigin: 0px; /* Keep this set to 0! */
+	
+	background-color: #ffffff;
+	font-size: 11px;	
+}
+
+a:link {
+	color: #cb1919;
+}
+
+/*div {
+	outline-width: 1px;
+	outline-color: red;
+	outline-style: solid;
+}*/
+
+#center {
+		width: 980px;
+		margin: 0 auto;
+		position: relative;
+}
+
+#header {
+	width: 980px;
+	height: 94px;
+
+	background-color: #ffffff;
+	position: fixed;
+	top: 0px;
+	z-index: 1001;
+
+}
+
+#footer {
+	position: fixed;
+	z-index: 100;
+	width: 980px;
+	background-color: #ffffff;
+	height: 1000px;
+	/*outline-width: 1px;
+	outline-color: red;
+	outline-style: solid;*/
+}
+
+#mainContent {
+	position: relative;
+	height: 482px;
+
+}
+
+#mainContent h2 {
+	font-size: 12px;
+	margin: 0px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#mainImage {
+	position: fixed;
+	width: 980px;
+	top: 80px;
+	z-index: -1;
+
+}
+
+#contentText {
+
+	/*opacity:0.45;
+	filter:alpha(opacity=45); /* For IE8 and earlier 
+
+	background-color: #899495;*/
+
+
+	width: 328px;
+	padding-left: 34px;
+	padding-right: 27px;
+	margin-left: 77px;
+
+	color: #ffffff;
+	
+	background-image: url('../images/contentBackground.png');
+	
+	
+	position: absolute;
+	left: 50%;
+	z-index: 100;
+
+}
+
+/*.breaker {
+	clear: both;
+}*/
+
+/*Nav*/
+
+#masthead {
+	width: 980px;
+	position: relative;
+	top: 26px;
+	left: 0px;
+
+}
+
+#logo {
+	width: 410px;
+	float: left;
+}
+
+#logoText {
+	display: none;
+}
+
+#navArea {
+	width: 523px;
+	float: left;
+	
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#navArea>ul {
+	border-bottom: 2px solid #dbdfde;
+
+	margin: 0px;
+	padding: 0px;
+
+	list-style: none;
+}
+
+#navArea li.galleryMobile {
+	display: none;
+}
+
+
+#navArea>ul>li {
+	display: inline;
+	
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	margin-left: 20px;
+	
+}
+
+#navArea>ul>li:first-child {
+	margin-left: 0px;
+}
+
+#navArea>ul>li.active {
+	color: #cb1919;
+}
+
+#navArea>ul>li>a, #contactArea>div a, #contactArea>div a:visited {
+	color: #899495;
+	text-decoration: none;
+}
+
+#contactArea>div a:hover {
+	text-decoration: underline;
+}
+
+#navArea>ul>li>a:visited {
+	color: #899495;
+}
+
+#contactArea>div {
+	padding-top: 7px;
+	color: #899495;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+#contactArea>.inline {
+	display: inline;
+}
+
+#contactArea>.rightBorder {
+	border-right: 1px solid #dbdfde;
+}
+
+#contactArea>.padLeft {
+	padding-left: 8px;
+}
+
+#contactArea>.padRight {
+	padding-right: 8px;
+}
+
+
+/*Patina*/
+
+#frame {
+ position: fixed;
+ width: 980px;
+ 
+
+
+}
+
+
+#patinaTop {
+	position: relative;
+	top: 55px;
+	left: 19px;
+	background-image: url('../images/patina-top.png');
+	
+	width: 914px;
+	height: 41px;
+	z-index: 101;
+
+
+}
+
+#patinaRight {
+	position: relative;
+	top: 14px;
+	left: 929px;
+
+	background-image: url('../images/patina-right.png');
+	
+	width: 34px;
+	height: 436px;
+	z-index: 101;
+}
+
+#patinaBottom {
+	position: relative;
+	top: -15px;
+	left: 15px;
+
+	background-image: url('../images/patina-bottom.png');
+	
+	width: 914px;
+	height: 29px;
+	z-index: 101;
+}
+
+#patinaLeft {
+	position: relative;
+	top: -450px;
+	left: -5px;
+
+	background-image: url('../images/patina-left.png');
+	
+	width: 19px;
+	height: 436px;
+	z-index: 101;
+}
+
+.patina {
+	background-repeat: no-repeat;
+
+/*	border-width: 1px 0px;
+	border-style: solid;
+	border-color: #33cc33;*/
+
+}
+
+#caption {
+	position: relative;
+	top: -80px;
+	left: 20px;
+	
+	color:#FFFFFF;
+	
+	font-size: 14px;
+	font-family: "Courier New", Courier, monospace;
+	font-variant: small-caps;
+	/*text-transform: uppercase;*/
+	/*text-shadow: 2px 2px 2px #000;*/
+
+	
+	width: 535px;
+	z-index: 101;
+
+	
+}
